@@ -1,14 +1,14 @@
-import "package:test/test.dart";
 import 'package:numeral/numeral.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   group('Factory create', () {
     test('Failed assertion.', () {
-      try {
-        Numeral(null);
-      } catch (_) {
-        expect(true, isTrue);
-      }
+      // try {
+      //   Numeral(null);
+      // } catch (_) {
+      //   expect(true, isTrue);
+      // }
     });
 
     test('class', () {
